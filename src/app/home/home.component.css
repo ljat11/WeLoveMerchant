@@ -63,3 +63,27 @@ li a:hover{
     margin-top: .7rem;
 }
 
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  margin-top: 5rem;
+  /* border-top: 1px solid #000000; */
+  background: linear-gradient(207.8deg, #b98181 16.69%, #3d788a 100%);
+}
+.information-footer{
+  display: flex;
+  justify-content: space-between;
+  right: 0;
+
+}
+.information-footer a{
+    color: #ebeae8;
+    font-weight: bold;
+    padding: 1em;
+}
+.information-footer a:hover{
+    color: #ffebcd;
+}
+
