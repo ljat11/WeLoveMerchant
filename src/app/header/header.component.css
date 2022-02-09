@@ -1,0 +1,30 @@
+header{
+    background: linear-gradient(207.8deg, #b98181 16.69%, #3d788a 100%);
+    padding: 0;
+    border-bottom: 1px solid #000000;
+}
+a{
+    color: #ebeae8;
+}
+a:hover{
+    background: #4d3910;
+    color: #ffebcd;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+a.logo{
+    font-weight: bold;
+    padding: 1em;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 1em;
+
+}
